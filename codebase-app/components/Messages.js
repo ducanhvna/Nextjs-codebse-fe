@@ -22,7 +22,7 @@ import {
 } from 'react-feather';
 
 import MOCKMESSAGES from '../demos/mock/messages';
-import distanceInWordsToNow from 'date-fns/distanceInWordsToNow';
+import distanceInWordsToNow from 'date-fns/formatDistanceToNow';
 import format from 'date-fns/format';
 import styled from 'styled-components';
 import { useAppState } from './shared/AppProvider';
@@ -230,7 +230,7 @@ const Messages = ({ form } = props) => {
               <div className="pl-3">
                 <h6>{selectedMessage.from}</h6>
                 <small>
-                  {format(new Date(selectedMessage.date), 'MMMM Do YYYY hh:mm')}
+                  {format(new Date(selectedMessage.date), 'MMMM Do yyyy hh:mm')}
                 </small>
               </div>
             </div>

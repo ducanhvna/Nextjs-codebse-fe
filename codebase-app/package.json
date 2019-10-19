@@ -29,6 +29,7 @@
     "react-dom": "^16.10.2",
     "react-feather": "^2.0.3",
     "react-infinite-scroller": "^1.2.4",
+    "react-map-gl": "^5.0.12",
     "react-no-ssr": "^1.1.0",
     "react-resizable": "^1.8.0",
     "react-sticky": "^6.0.3",

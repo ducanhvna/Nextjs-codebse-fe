@@ -1,7 +1,7 @@
 import { Avatar } from 'antd';
-import subDays from 'date-fns/sub_days';
-import subHours from 'date-fns/sub_hours';
-import subMinutes from 'date-fns/sub_minutes';
+import subDays from 'date-fns/subDays';
+import subHours from 'date-fns/subHours';
+import subMinutes from 'date-fns/subMinutes';
 
 const now = Date.now();
 const mockMessages = [
