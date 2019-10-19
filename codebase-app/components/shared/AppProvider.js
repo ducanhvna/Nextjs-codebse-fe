@@ -99,7 +99,7 @@ const reducer = (state, action) => {
 
 const AppProvider = props => {
   const [state, dispatch] = useReducer(reducer, {
-    name: 'One',
+    name: 'Nextjs-codebase-fe',
     mobile: false,
     boxed: false,
     darkSidebar: false,
