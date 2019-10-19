@@ -131,8 +131,8 @@ import SimpleTreemap from './treemap/simple-treemap';
 import StackedHistogram from './plot/stacked-histogram';
 import StackedHorizontalBarChart from './plot/stacked-horizontal-bar-chart';
 import StackedVerticalBarChart from './plot/stacked-vertical-bar-chart';
-import StaticCrosshair from './axes/static-crosshair';
-import StaticHints from './axes/static-hints';
+// import StaticCrosshair from './axes/static-crosshair';
+// import StaticHints from './axes/static-hints';
 import SunburstWithTooltips from './sunbursts/sunburst-with-tooltips';
 import SyncedCharts from './misc/synced-charts';
 import TimeChart from './misc/time-chart';
@@ -188,7 +188,7 @@ const mainShowCase = {
   CustomAxisTickElement,
   AxisWithTurnedLabels,
   GridLinesChart,
-  StaticHints,
+  // StaticHints,
   DecorativeAxisCrissCross,
   DynamicHints,
   DynamicComplexEdgeHints,
@@ -196,7 +196,7 @@ const mainShowCase = {
   DynamicSimpleTopEdgeHints,
   DynamicProgrammaticRightEdgeHints,
   EmptyChart,
-  StaticCrosshair,
+  // StaticCrosshair,
   DynamicCrosshair,
   DynamicCrosshairScatterplot,
   PaddedAxis,

@@ -1,6 +1,6 @@
 import '../assets/styles.less';
 
-import App, { Container } from 'next/app';
+import App from 'next/app';
 
 import AppProvider from '../components/shared/AppProvider';
 import { GlobalStyles } from '../components/styles/GlobalStyles';
@@ -38,7 +38,7 @@ class MyApp extends App {
     const { Component, pageProps } = this.props;
 
     return (
-      <Container>
+      <>
         <GlobalStyles />
         <Head>
           <meta
@@ -62,7 +62,7 @@ class MyApp extends App {
             <Component {...pageProps} />
           </Page>
         </AppProvider>
-      </Container>
+      </>
     );
   }
 }
