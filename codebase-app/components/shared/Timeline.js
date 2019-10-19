@@ -2,7 +2,7 @@ import { Button, Card } from 'antd';
 
 import PropTypes from 'prop-types';
 import TimelineStyled from '../styles/Timeline';
-import distanceInWordsToNow from 'date-fns/distance_in_words_to_now';
+import distanceInWordsToNow from 'date-fns/distanceInWordsToNow';
 
 const Timeline = ({ title, timeline }) => (
   <TimelineStyled>

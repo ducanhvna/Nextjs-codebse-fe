@@ -22,7 +22,7 @@ import {
 } from 'react-feather';
 
 import MOCKMESSAGES from '../demos/mock/messages';
-import distanceInWordsToNow from 'date-fns/distance_in_words_to_now';
+import distanceInWordsToNow from 'date-fns/distanceInWordsToNow';
 import format from 'date-fns/format';
 import styled from 'styled-components';
 import { useAppState } from './shared/AppProvider';
